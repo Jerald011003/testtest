@@ -36,7 +36,7 @@ def registerPage(request):
         return render(request, 'auth/register.html', context)
 
 
-def loginPage(request):
+def loginPage2(request):
     if request.user.is_authenticated:
         return redirect('home')
     else:
