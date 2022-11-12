@@ -1,0 +1,64 @@
+{% extends 'main.html' %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+
+    {% include 'base/css.html' %}
+    {% include 'base/js.css.html' %}
+
+</head>
+<body class="test" >
+
+
+    {% block content %}
+    {% comment %} {% include 'base/navbar.html' %} {% endcomment %}
+
+        <br>
+
+		<div class="row">
+			<div class="col-md">
+				<div class="card card-body">
+					<h5>Invoices</h5>
+				</div>
+            <br>
+				<div class="card card-body">
+					<table class="table">
+						<tr>
+							<th>Invoice No.</th>
+							<th>Name</th>
+							<th>Date Created</th>
+                            <th>Payment Status</th>
+						</tr>
+
+                        {% for i in customer2 %}
+                            <tr>
+                                <td>{{ i.invoice_number }}</td>
+                                <td>{{ i.name }}</td>
+                                <td>{{ i.date_created }}</td>
+                                <td>{{ i.payment_status }}</td>
+                            </tr>
+                        {% endfor %}
+					</table>
+				</div>
+			</div>
+
+		</div>
+
+    {% comment %}
+    <br>
+
+    {% for object in object_list %}
+        Title: <a href="{% url 'detailed' object.id %}" >{{ object.title }}</a><br>
+    {% endfor %}
+    </ul>
+    {% endcomment %}
+
+    {% endblock %}
+
+</body>
+</html>

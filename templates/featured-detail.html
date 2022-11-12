@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% include 'base/css.html' %}
+    {% include 'base/js.css.html' %}
+</head>
+<body>
+    {% include 'base/navbar.html' %}
+    <h1>Featured Products</h1>
+
+    {{ object.title }}<br>
+    {{ object.description }}<br>
+    {% if object.image %}
+    <img src="{{ object.image.url }}">
+    {% endif %}
+</body>
+</html>

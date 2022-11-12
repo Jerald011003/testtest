@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5fcee60-1dd9-47f5-a5cd-fbcf83037182" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ElbpjM5RlzjP7DnEZ75PVYGrOr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programming\PycharmProject\JeraldTest3\search" />
+      <recent name="E:\Programming\PycharmProject\JeraldTest3\templates" />
+      <recent name="E:\Programming\PycharmProject\JeraldTest3\static_my_project" />
+      <recent name="E:\Programming\PycharmProject\JeraldTest3\templates\base" />
+      <recent name="E:\Programming\PycharmProject\JeraldTest3\products" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programming\PycharmProject\JeraldTest3\static_cdn\static_root" />
+      <recent name="C:\Users\ACER\PycharmProjects\JeraldTest3\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JeraldTest3" type="Python.DjangoServer" factoryName="Django server">
+      <module name="JeraldTest3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5fcee60-1dd9-47f5-a5cd-fbcf83037182" name="Default Changelist" comment="" />
+      <created>1663173302363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663173302363</updated>
+      <workItem from="1663173314468" duration="15788000" />
+      <workItem from="1663190116013" duration="447000" />
+      <workItem from="1663238607143" duration="7000" />
+      <workItem from="1663238718537" duration="34000" />
+      <workItem from="1663239302753" duration="6177000" />
+      <workItem from="1663478886950" duration="13634000" />
+      <workItem from="1663843686249" duration="6887000" />
+      <workItem from="1663851882645" duration="10153000" />
+      <workItem from="1663896762565" duration="1285000" />
+      <workItem from="1663906246741" duration="3686000" />
+      <workItem from="1663910024879" duration="1391000" />
+      <workItem from="1664509541208" duration="4948000" />
+      <workItem from="1665580333426" duration="511000" />
+      <workItem from="1665649540371" duration="4096000" />
+      <workItem from="1665653709272" duration="12712000" />
+      <workItem from="1665672660741" duration="176000" />
+      <workItem from="1665673581926" duration="1542000" />
+      <workItem from="1665675195784" duration="28000" />
+      <workItem from="1665675503525" duration="8240000" />
+      <workItem from="1665711593879" duration="1439000" />
+      <workItem from="1665717530609" duration="5936000" />
+      <workItem from="1666312086180" duration="3030000" />
+      <workItem from="1666433754724" duration="5945000" />
+      <workItem from="1666439830070" duration="28057000" />
+      <workItem from="1666525665646" duration="617000" />
+      <workItem from="1666526314799" duration="1529000" />
+      <workItem from="1667747113786" duration="6698000" />
+      <workItem from="1667765822134" duration="19242000" />
+      <workItem from="1667809782573" duration="18000" />
+      <workItem from="1667825755399" duration="27000" />
+      <workItem from="1667825861890" duration="1942000" />
+      <workItem from="1667827850308" duration="4304000" />
+      <workItem from="1667898872622" duration="732000" />
+      <workItem from="1668002451634" duration="2735000" />
+      <workItem from="1668005252464" duration="104000" />
+      <workItem from="1668005388876" duration="13216000" />
+      <workItem from="1668085444184" duration="5272000" />
+      <workItem from="1668133735937" duration="59000" />
+      <workItem from="1668133872583" duration="5000" />
+      <workItem from="1668134393137" duration="110000" />
+      <workItem from="1668134953834" duration="28000" />
+      <workItem from="1668135288785" duration="19000" />
+      <workItem from="1668135480944" duration="533000" />
+      <workItem from="1668155900100" duration="2106000" />
+      <workItem from="1668158017973" duration="21868000" />
+      <workItem from="1668186677898" duration="222000" />
+      <workItem from="1668189202095" duration="52000" />
+      <workItem from="1668189599164" duration="671000" />
+      <workItem from="1668190566207" duration="65000" />
+      <workItem from="1668190998413" duration="104000" />
+      <workItem from="1668193705934" duration="50000" />
+      <workItem from="1668200603285" duration="20000" />
+      <workItem from="1668205224370" duration="94000" />
+      <workItem from="1668211496209" duration="300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/accounts/forms.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

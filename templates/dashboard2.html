@@ -1,0 +1,110 @@
+{% extends 'main.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+
+    {% include 'base/css.html' %}
+    {% include 'base/js.css.html' %}
+
+</head>
+<body>
+
+{% block content %}
+    {% include 'status.html' %}
+
+
+<div class="row">
+
+	<div class="col-md-5">
+    <div class="card card-body">
+
+    <h5>CUSTOMERS</h5>
+     <br>
+     <center>
+        <div class="card card-body">
+			<form method="get">
+                        {{mycusFilter.form}}
+		    <button class="btn btn-primary" type="submit">Search</button>
+		  </form>
+		</div>
+    </center>
+     <br>
+    <hr>
+    <div class="card card-body">
+			<a class="btn btn-primary  btn-sm btn-block" href="{% url 'createcustomer' %}">Create Customer</a>
+			<table class="table table-sm">
+				<tr>
+                    <th></th>
+					<th>Customer</th>
+					<th>Phone</th>
+				</tr>
+                {% for customer in customers %}
+                    <tr>
+                        <td><a class="btn btn-sm btn-info" href="{% url 'customer' customer.id %}">View</a></td>
+                        <td>{{customer.name}}</td>
+                        <td>{{customer.phone}}</td>
+                    </tr>
+                {% endfor %}
+			</table>
+    </div>
+		</div>
+	</div>
+
+	<div class="col-md-7">
+        <div class="card card-body">
+		<h5>LAST 5 ORDERS</h5>
+		<hr>
+		<div class="card card-body">
+			<a class="btn btn-primary  btn-sm btn-block" href="{% url 'orderform' %}">Create Order</a>
+			<table class="table table-sm">
+				<tr>
+					<th>Product</th>
+					<th>Date Orderd</th>
+					<th>Status</th>
+					<th>Update</th>
+					<th>Remove</th>
+				</tr>
+                {% for order in orders %}
+                    <tr>
+                        <td>{{order.product}}</td>
+                        <td>{{order.date_created}}</td>
+                        <td>
+                            {% if order.status %}
+                            {{order.status}}
+                                {% elif order.delivered_status %}
+                                {{ order.delivered_status }}
+                                {% elif order.status == order.delivered_status %}
+                                {{ order.status }}
+                            {% endif %}
+
+
+
+                        </td>
+
+                        {% if order.delivered_status %}
+                            <td><a class="btn btn-sm btn-info disabled "href="#">Update</a></td>
+                            {% elif order.status %}
+                            <td><a class="btn btn-sm btn-info"href="{% url 'update_order' order.id %}">Update</a></td>
+                        {% endif %}
+						{% if order.delivered_status %}
+                        <td><a class="btn btn-sm btn-danger disabled "href="#">Delete</a></td>
+                            {% elif order.status %}
+                            <td><a class="btn btn-sm btn-danger"href="{% url 'delete_order' order.id %}">Delete</a></td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+			</table>
+		</div>
+	</div>
+
+</div>
+
+{% endblock %}
+
+
+</body>
+</html>

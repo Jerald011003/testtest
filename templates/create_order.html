@@ -1,0 +1,44 @@
+
+    {% extends 'main.html' %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+
+    {% include 'base/css.html' %}
+    {% include 'base/js.css.html' %}
+
+</head>
+<body class="test" >
+
+
+    {% block content %}
+    {% comment %}{% include 'base/navbar.html' %} {% endcomment %}
+        <!--For Total Price-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <br>
+
+        <form action="" method="POST">
+				{% csrf_token %}
+				{{form}}
+
+				<input type="submit" name="Submit">
+			</form>
+    {% comment %}
+    <br>
+
+    {% for object in object_list %}
+        Title: <a href="{% url 'detailed' object.id %}" >{{ object.title }}</a><br>
+    {% endfor %}
+    </ul>
+    {% endcomment %}
+
+    {% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+{% extends 'main.html' %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+
+    {% include 'base/css.html' %}
+    {% include 'base/js.css.html' %}
+
+</head>
+<body class="test" >
+
+
+    {% block content %}
+    {% comment %}{% include 'base/navbar.html' %} {% endcomment %}
+        <!--For Total Price-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            let empiric;
+            let totality=0;
+            $('td:nth-child(4)').each(function ()
+            {
+                empiric=$(this).html();
+                totality+=parseInt(empiric);
+                $('#totalprice').text(totality);
+            });
+        });
+    </script>
+
+        <br>
+
+		<div class="row">
+
+			<div class="col-md">
+				<div class="card card-body">
+					<h5>Products</h5>
+				</div>
+            <br>
+				<div class="card card-body">
+					<table class="table">
+						<tr>
+                            <th>Imagee</th>
+							<th>Product</th>
+							<th>Category</th>
+							<th>Price</th>
+						</tr>
+
+                        {% for i in products2 %}
+                            <tr>
+                                <td><center><img class="imgclass" src="{{ i.image.url }}"></center></td>
+                                <td>{{ i.name }}</td>
+                                <td>{{ i.category }}</td>
+                                <td>{{ i.price }}</td>
+                            </tr>
+                        {% endfor %}
+                        <tr>
+                            <td colspan="2">Total</td>
+                            <td id="totalprice"></td>
+                        </tr>
+					</table>
+				</div>
+			</div>
+
+		</div>
+
+    {% comment %}
+    <br>
+
+    {% for object in object_list %}
+        Title: <a href="{% url 'detailed' object.id %}" >{{ object.title }}</a><br>
+    {% endfor %}
+    </ul>
+    {% endcomment %}
+
+    {% endblock %}
+
+</body>
+</html>

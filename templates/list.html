@@ -1,0 +1,54 @@
+{% extends 'main.html' %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+
+    {% include 'base/css.html' %}
+    {% include 'base/js.css.html' %}
+
+</head>
+<body class="test" >
+
+
+    {% block content %}
+    {% include 'base/navbar.html' %}
+
+        <br>
+
+		<div class="row">
+			<div class="col-md">
+				<div class="card card-body">
+					<h5>Products</h5>
+				</div>
+				<div class="card card-body">
+					<table class="table">
+						<tr>
+							<th>Product</th>
+							<th>Category</th>
+							<th>Price</th>
+						</tr>
+
+					</table>
+				</div>
+			</div>
+
+		</div>
+
+
+    <br>
+
+    {% for object in object_list %}
+        Title: <a href="{% url 'detailed' object.id %}" >{{ object.title }}</a><br>
+    {% endfor %}
+    </ul>
+
+
+    {% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+{% load static %}
+
+<style>
+    .hello-msg{
+        font-size: 18px;
+        color: #fff;
+        margin-right: 20px;
+    }
+</style>
+
+{% if user.is_authenticated %}
+
+       {% block nav %}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="{% url 'dashboard' %}">Cloud Annex</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'dashboard' %}">Dashboard <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'products' %}">Products</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="{% url 'allcustomer' %}">Customer</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="{% url 'invoices' %}">Invoices</a>
+      </li>
+
+
+      <!--<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{% url 'allcustomer' %}">Customer</a>
+          <a class="dropdown-item" href="{% url 'invoices' %}">Invoices</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>--!>
+
+      </li>
+
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0">
+        <span class="hello-msg">Hello, {{request.user}}</span>
+      <a class="nav-link btn btn-outline-success my-2 my-sm-0" href="{% url 'logout' %}">Logout</a>
+    </form>
+
+  </div>
+</nav>
+
+  {% endblock %}
+
+<div class="container-fluid">
+
+
+<!--
+    <p><a href="{% url 'dashboard' %}">Dashboard</a></p>
+    <p><a href="{% url 'recordlist' %}">Customers</a></p>
+    <p><a href="{% url 'products' %}">Products</a></p>
+    <p><a href="{% url 'logout' %}">Log Out</a></p>
+-->
+
+
+
+
+</div>
+{% else %}
+<section class="vh-100" style="background-color: white;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col col-xl-10">
+        <div class="card" style="border-radius: 1rem;">
+          <div class="row g-0">
+            <div class="col-md-6 col-lg-5 d-none d-md-block">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+            </div>
+            <div class="col-md-6 col-lg-7 d-flex align-items-center">
+              <div class="card-body p-4 p-lg-5 text-black">
+
+                <form>
+
+                  <div class="d-flex align-items-center mb-3 pb-1">
+                    <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                    <span class="h1 fw-bold mb-0">Welcome to CloudAnnex!</span>
+                  </div>
+                    <br>
+
+                      <form autocomplete="off" method="post">
+                            {% csrf_token %}
+                            {{ form.as_p }}
+                          <a href="{% url 'login' %}" class="btn btn-dark btn-lg btn-block" type="button">Join CloudAnnex</a>
+                      </form>
+
+                    <br>
+                    <br>
+                    <br>
+
+                  <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account?
+                      <a href="{% url 'register' %}"
+                      style="color: #393f81;">Sign Up</a></p>
+                  <a href="#!" class="small text-muted">Terms of use.</a>
+                  <a href="#!" class="small text-muted">Privacy policy</a>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% endif %}
