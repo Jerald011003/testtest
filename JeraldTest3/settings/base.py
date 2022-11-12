@@ -16,7 +16,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'JeraldTest3.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, '../../db.sqlite3'),
     }
 }
 
@@ -127,7 +127,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATICFILES_DIRS = [BASE_DIR / "static_my_project",]
+STATICFILES_DIRS = [BASE_DIR / "static_my_project", ]
 
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn", "static_root")
 
@@ -141,3 +141,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
 
+CORS_REPLACE_HTTPS_REFERER      = False
+HOST_SCHEME                     = "http://"
+SECURE_PROXY_SSL_HEADER         = None
+SECURE_SSL_REDIRECT             = False
+SESSION_COOKIE_SECURE           = False
+CSRF_COOKIE_SECURE              = False
+SECURE_HSTS_SECONDS             = None
+SECURE_HSTS_INCLUDE_SUBDOMAINS  = False
+SECURE_FRAME_DENY               = False
