@@ -36,21 +36,21 @@ def registerPage(request):
         return render(request, 'auth/register.html', context)
 
 
-def loginPage2(request):
-        if request.method == 'POST':
-            username = request.POST.get('username')
-            password = request.POST.get('password')
-
-            user = authenticate(request, username=username, password=password)
-
-            if user is not None:
-                login(request, user)
-                return redirect('home')
-            else:
-                messages.info(request, 'Username OR password is incorrect')
-
-        context = {}
-        return render(request, 'auth/loginpage.html', context)
+# def loginPage2(request):
+#         if request.method == 'POST':
+#             username = request.POST.get('username')
+#             password = request.POST.get('password')
+#
+#             user = authenticate(request, username=username, password=password)
+#
+#             if user is not None:
+#                 login(request, user)
+#                 return redirect('home')
+#             else:
+#                 messages.info(request, 'Username OR password is incorrect')
+#
+#         context = {}
+#         return render(request, 'auth/loginpage.html', context)
 
 
 def logoutUser(request):

@@ -25,7 +25,7 @@ urlpatterns = [
 
    #Login
     path('register/', views.registerPage, name="register"),
-    path('login/', views.loginPage2, name="login"),
+    #path('login/', views.loginPage2, name="login"),
     path('logout/', views.logoutUser, name="logout"),
 
     #Search
