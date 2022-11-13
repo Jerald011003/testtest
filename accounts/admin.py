@@ -8,4 +8,4 @@ admin.site.register(Customer)
 admin.site.register(ProductForCustomer)
 admin.site.register(Order)
 admin.site.register(Tag)
-admin.site.register(User)
+
