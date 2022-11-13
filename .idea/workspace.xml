@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b5fcee60-1dd9-47f5-a5cd-fbcf83037182" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeraldTest3/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/JeraldTest3/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeraldTest3/settings/local_bak.py" beforeDir="false" afterPath="$PROJECT_DIR$/JeraldTest3/settings/local_bak.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JeraldTest3/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/JeraldTest3/settings/production.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -54,22 +58,23 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ADMIN/Desktop/Gian/JeraldTest3",
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/Gian/JeraldTest3/JeraldTest3/aws",
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\JeraldTest3\aws" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\JeraldTest3\settings" />
       <recent name="E:\Programming\PycharmProject\JeraldTest3\static_cdn\static_root" />
       <recent name="C:\Users\ACER\PycharmProjects\JeraldTest3\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\static" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\templates\auth" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\templates" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\JeraldTest3\settings" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\JeraldTest3\base" />
-      <recent name="E:\Programming\PycharmProject\JeraldTest3\search" />
     </key>
   </component>
   <component name="RunManager">
@@ -163,7 +168,7 @@
       <workItem from="1668205224370" duration="94000" />
       <workItem from="1668211496209" duration="7658000" />
       <workItem from="1668220335035" duration="643000" />
-      <workItem from="1668322021036" duration="657000" />
+      <workItem from="1668322021036" duration="2781000" />
     </task>
     <servers />
   </component>
