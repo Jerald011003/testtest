@@ -11,7 +11,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    #path("", include("django.contrib.auth.urls")),
+    path("", include("django.contrib.auth.urls")),
     # path('contact/', contact_page),
     path('admin/', admin.site.urls),
 
@@ -25,7 +25,7 @@ urlpatterns = [
 
    #Login
     path('register/', views.registerPage, name="register"),
-    #path('login/', views.loginPage2, name="login"),
+    path('login/', views.loginPage2, name="login"),
     path('logout/', views.logoutUser, name="logout"),
 
     #Search
