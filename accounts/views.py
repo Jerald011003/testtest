@@ -19,7 +19,9 @@ from accounts.forms import *
 from .forms import *
 
 def registerPage(request):
-
+    if request.user.is_authenticated:
+        return redirect('home')
+    else:
         form = CreateUserForm()
         if request.method == 'POST':
             form = CreateUserForm(request.POST)
