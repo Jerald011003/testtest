@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5fcee60-1dd9-47f5-a5cd-fbcf83037182" name="Default Changelist" comment="" />
+    <list default="true" id="b5fcee60-1dd9-47f5-a5cd-fbcf83037182" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/templates/auth/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/register.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,10 +67,10 @@
       <recent name="C:\Users\ACER\PycharmProjects\JeraldTest3\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\templates\auth" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\templates" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\static" />
-      <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\templates\auth" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\JeraldTest3\settings" />
     </key>
   </component>
@@ -163,7 +165,7 @@
       <workItem from="1668205224370" duration="94000" />
       <workItem from="1668211496209" duration="7658000" />
       <workItem from="1668220335035" duration="643000" />
-      <workItem from="1668322021036" duration="15721000" />
+      <workItem from="1668322021036" duration="16114000" />
     </task>
     <servers />
   </component>
