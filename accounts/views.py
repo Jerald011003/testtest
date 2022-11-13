@@ -9,14 +9,14 @@ from django.contrib.auth.models import User, auth
 from django.http import HttpResponse
 
 from .models import *
-from .forms import OrderForm, CreateUserForm
+from accounts.forms import OrderForm, CreateUserForm
 from django.forms import inlineformset_factory
 from .filters import OrderFilter, CustomerFilter
 
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-
+from accounts.forms import *
 from .forms import *
 def registerPage(request):
 
