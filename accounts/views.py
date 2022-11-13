@@ -17,39 +17,21 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from accounts.forms import *
 from .forms import *
-from django.contrib.auth import get_user_model
 
-User = get_user_model()
+def registerPage(request):
 
-def register_page(request):
-    form = RegisterForm(request.POST or None)
-    context = {
-        'form': form
-    }
+        form = CreateUserForm()
+        if request.method == 'POST':
+            form = CreateUserForm(request.POST)
+            if form.is_valid():
+                form.save()
+                user = form.cleaned_data.get('username')
+                messages.success(request, 'Account was created for ' + user)
 
-    if form.is_valid():
-        username = form.cleaned_data.get("username")
-        email = form.cleaned_data.get("email")
-        password = form.cleaned_data.get("password")
-        newUser = User.objects.create_user(username, email, password)
+                return redirect('login')
 
-    return render(request, "auth/register.html", context)
-
-# def registerPage(request):
-#
-#         form = CreateUserForm()
-#         if request.method == 'POST':
-#             form = CreateUserForm(request.POST)
-#             if form.is_valid():
-#                 form.save()
-#                 user = form.cleaned_data.get('username')
-#                 messages.success(request, 'Account was created for ' + user)
-#
-#                 return redirect('login')
-#
-#         context = {'form': form}
-#         return render(request, 'auth/register.html', context)
-#
+        context = {'form': form}
+        return render(request, 'auth/register.html', context)
 
 def loginPage2(request):
         if request.method == 'POST':
