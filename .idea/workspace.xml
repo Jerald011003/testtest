@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5fcee60-1dd9-47f5-a5cd-fbcf83037182" name="Default Changelist" comment="" />
+    <list default="true" id="b5fcee60-1dd9-47f5-a5cd-fbcf83037182" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,12 +54,13 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ADMIN/Desktop/Gian/JeraldTest3/JeraldTest3/aws",
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/Gian/JeraldTest3/static",
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\static" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\JeraldTest3\aws" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\JeraldTest3\settings" />
       <recent name="E:\Programming\PycharmProject\JeraldTest3\static_cdn\static_root" />
@@ -162,7 +165,7 @@
       <workItem from="1668205224370" duration="94000" />
       <workItem from="1668211496209" duration="7658000" />
       <workItem from="1668220335035" duration="643000" />
-      <workItem from="1668322021036" duration="7196000" />
+      <workItem from="1668322021036" duration="7936000" />
     </task>
     <servers />
   </component>
