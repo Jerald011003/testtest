@@ -18,7 +18,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 
 from .forms import *
-def registerPage(request):
+def registerPage(request, self):
     if request.user.is_authenticated:
         return redirect('home')
     else:
