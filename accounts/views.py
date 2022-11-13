@@ -10,7 +10,6 @@ from django.contrib.auth.forms import UserCreationForm
 
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from accounts.forms import *
 from .forms import *
 
 
@@ -18,9 +17,9 @@ def registerPage(request):
     if request.user.is_authenticated:
         return redirect('home')
     else:
-        form = UserCreationForm()
+        form = CreateUserForm()
         if request.method == 'POST':
-            form = UserCreationForm(request.POST)
+            form = CreateUserForm(request.POST)
             if form.is_valid():
                 form.save()
                 user = form.cleaned_data.get('username')
