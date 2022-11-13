@@ -12,27 +12,44 @@ from .models import *
 from accounts.forms import OrderForm, CreateUserForm
 from django.forms import inlineformset_factory
 from .filters import OrderFilter, CustomerFilter
-
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from accounts.forms import *
 from .forms import *
-def registerPage(request):
+from django.contrib.auth import get_user_model
 
-        form = CreateUserForm()
-        if request.method == 'POST':
-            form = CreateUserForm(request.POST)
-            if form.is_valid():
-                form.save()
-                user = form.cleaned_data.get('username')
-                messages.success(request, 'Account was created for ' + user)
+User = get_user_model()
 
-                return redirect('login')
+def register_page(request):
+    form = RegisterForm(request.POST or None)
+    context = {
+        'form': form
+    }
 
-        context = {'form': form}
-        return render(request, 'auth/register.html', context)
+    if form.is_valid():
+        username = form.cleaned_data.get("username")
+        email = form.cleaned_data.get("email")
+        password = form.cleaned_data.get("password")
+        newUser = User.objects.create_user(username, email, password)
 
+    return render(request, "auth/register.html", context)
+
+# def registerPage(request):
+#
+#         form = CreateUserForm()
+#         if request.method == 'POST':
+#             form = CreateUserForm(request.POST)
+#             if form.is_valid():
+#                 form.save()
+#                 user = form.cleaned_data.get('username')
+#                 messages.success(request, 'Account was created for ' + user)
+#
+#                 return redirect('login')
+#
+#         context = {'form': form}
+#         return render(request, 'auth/register.html', context)
+#
 
 def loginPage2(request):
         if request.method == 'POST':

@@ -4,11 +4,14 @@ from django.views.generic.base import TemplateView
 from accounts import views
 from .view import contact_page
 
+from accounts.views import register_page
+
 from django.contrib.auth import views as auth_views
 
 #importing static infos
 from django.conf import settings
 from django.conf.urls.static import static
+
 
 urlpatterns = [
     path("", include("django.contrib.auth.urls")),
@@ -24,7 +27,7 @@ urlpatterns = [
     # path('delete/<int:id>', views.destroy),
 
    #Login
-    path('register/', views.registerPage, name="register"),
+    path('register/', views.register_page, name="register"),
     path('login/', views.loginPage2, name="login"),
     path('logout/', views.logoutUser, name="logout"),
 

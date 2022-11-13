@@ -1,5 +1,7 @@
 from django import forms
+from django.contrib.auth import get_user_model
 
+User = get_user_model()
 class ContactForm(forms.Form):
     fullname = forms.CharField(widget=forms.TextInput(
         attrs={
@@ -25,4 +27,8 @@ class ContactForm(forms.Form):
         if not "gmail.com" in email:
             raise forms.ValidationError("Email has to be gmail.com")
         return email
+
+
+
+
 
