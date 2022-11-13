@@ -32,7 +32,7 @@ def registerPage(request):
 
                 return redirect('login')
 
-        context = {}
+        context = {'form': form}
         return render(request, 'register.html', context)
 
 
