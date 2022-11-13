@@ -24,7 +24,7 @@ urlpatterns = [
     # path('delete/<int:id>', views.destroy),
 
    #Login
-    path('register/', views.registerPage, name="register"),
+    #path('register/', views.registerPage, name="register"),
     path('login/', views.loginPage2, name="login"),
     path('logout/', views.logoutUser, name="logout"),
 
