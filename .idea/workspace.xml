@@ -3,10 +3,152 @@
   <component name="ChangeListManager">
     <list default="true" id="b5fcee60-1dd9-47f5-a5cd-fbcf83037182" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeraldTest3/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/JeraldTest3/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeraldTest3/settings/local_bak.py" beforeDir="false" afterPath="$PROJECT_DIR$/JeraldTest3/settings/local_bak.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JeraldTest3/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/JeraldTest3/settings/production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/dark_mode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/nav_sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-viewlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/nav_sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/img/CloudAnnex2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/img/CloudAnnexLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/img/GreenHat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/img/Shoes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/img/blackhat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/img/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_cdn/static_root/img/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_my_project/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_my_project/img/CloudAnnex2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_my_project/img/CloudAnnexLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_my_project/img/GreenHat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_my_project/img/Shoes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_my_project/img/blackhat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_my_project/img/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/static_my_project/img/test.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +213,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\static" />
+      <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\templates\auth" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\templates" />
       <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\JeraldTest3\settings" />
-      <recent name="C:\Users\ADMIN\Desktop\Gian\JeraldTest3\JeraldTest3\base" />
     </key>
   </component>
   <component name="RunManager">
@@ -168,7 +310,7 @@
       <workItem from="1668205224370" duration="94000" />
       <workItem from="1668211496209" duration="7658000" />
       <workItem from="1668220335035" duration="643000" />
-      <workItem from="1668322021036" duration="2781000" />
+      <workItem from="1668322021036" duration="3558000" />
     </task>
     <servers />
   </component>
