@@ -12,24 +12,15 @@ from django.conf.urls.static import static
 
 urlpatterns = [
    # path("", include("django.contrib.auth.urls")),
-    # path('contact/', contact_page),
     path('admin/', admin.site.urls),
 
     #RecordList
     path('record/', views.index, name="recordlist"),
-    # path('record/', views.index),
-    # path('addnew',views.addnew),
-    # path('edit/<int:id>', views.edit),
-    # path('update/<int:id>', views.update),
-    # path('delete/<int:id>', views.destroy),
 
    #Login
     path('register/', views.registerPage, name="register"),
     path('login/', views.loginPage2, name="login"),
     path('logout/', views.logoutUser, name="logout"),
-
-    #Search
-    # path('search/', include("search.urls", namespace='search')),
 
     #All Source Code
     path('dashboard/', views.dashboard2, name="dashboard"),
