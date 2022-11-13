@@ -1,12 +1,22 @@
+from django.shortcuts import render, redirect
+from accounts.forms import EmployeeForm
+from accounts.models import Employee
+
 from django.contrib import messages
+from django.shortcuts import render, redirect
+from django.contrib.auth.models import User, auth
+
+from django.http import HttpResponse
+
+from .models import *
+from accounts.forms import OrderForm, CreateUserForm
+from django.forms import inlineformset_factory
+from .filters import OrderFilter, CustomerFilter
+from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from django.forms import inlineformset_factory
-from django.shortcuts import render, redirect
-
-from .filters import OrderFilter, CustomerFilter
+from accounts.forms import *
 from .forms import *
-
 
 def registerPage(request):
     if request.user.is_authenticated:
