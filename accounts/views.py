@@ -18,10 +18,8 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 
 from .forms import *
-def registerPage(request, self):
-    if request.user.is_authenticated:
-        return redirect('home')
-    else:
+def registerPage(request):
+
         form = CreateUserForm()
         if request.method == 'POST':
             form = CreateUserForm(request.POST)
