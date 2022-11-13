@@ -31,7 +31,7 @@ def registerPage(request):
                 return redirect('login')
 
         context = {'form': form}
-        return render(request, 'auth/register.html', context)
+        return render(request, 'registration/register.html', context)
 
 
 def loginPage2(request):
